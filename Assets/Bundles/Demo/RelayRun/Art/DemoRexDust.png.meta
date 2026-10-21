@@ -1,0 +1,298 @@
+fileFormatVersion: 2
+guid: 29285e78a72693d4ba870cbbdc8dc724
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8417264061356060686
+    second: DemoRexDust_0
+  - first:
+      213: -1449632325910435437
+    second: DemoRexDust_1
+  - first:
+      213: 948940808565629513
+    second: DemoRexDust_2
+  - first:
+      213: -1235442713169030891
+    second: DemoRexDust_3
+  - first:
+      213: 9002317043833343858
+    second: DemoRexDust_4
+  - first:
+      213: -2477937800891959107
+    second: DemoRexDust_5
+  - first:
+      213: -5672842776866552739
+    second: DemoRexDust_6
+  - first:
+      213: 2772547638587227381
+    second: DemoRexDust_7
+  - first:
+      213: -2263905509777061967
+    second: DemoRexDust_8
+  - first:
+      213: 2161862679601159689
+    second: DemoRexDust_9
+  - first:
+      213: 1198204344431025398
+    second: DemoRexDust_10
+  - first:
+      213: -2494631478376909465
+    second: DemoRexDust_11
+  - first:
+      213: -9012770242693843931
+    second: DemoRexDust_12
+  - first:
+      213: 2767666644783611364
+    second: DemoRexDust_13
+  - first:
+      213: 8180125311804814863
+    second: DemoRexDust_14
+  - first:
+      213: -782506175849149702
+    second: DemoRexDust_15
+  - first:
+      213: -9040362388693854382
+    second: DemoRexDust_16
+  - first:
+      213: 150561105077699884
+    second: DemoRexDust_17
+  - first:
+      213: -7578479526342237641
+    second: DemoRexDust_18
+  - first:
+      213: 4262056393169435461
+    second: DemoRexDust_19
+  - first:
+      213: 818675063780540902
+    second: DemoRexDust_20
+  - first:
+      213: 4661705047854422876
+    second: DemoRexDust_21
+  - first:
+      213: -4235938950316948214
+    second: DemoRexDust_22
+  - first:
+      213: 7563548399808103001
+    second: DemoRexDust_23
+  - first:
+      213: 6713918475963428628
+    second: DemoRexDust_24
+  - first:
+      213: 3560275155442173295
+    second: DemoRexDust_25
+  - first:
+      213: -5873361486234272141
+    second: DemoRexDust_26
+  - first:
+      213: -1677375700274911726
+    second: DemoRexDust_27
+  - first:
+      213: 4987840502830138529
+    second: DemoRexDust_28
+  - first:
+      213: 70244980403605963
+    second: DemoRexDust
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DemoRexDust
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 289
+        width: 1159
+        height: 624
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc11630007f89f000800000000000000
+      internalID: 70244980403605963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DemoRexDust: 70244980403605963
+      DemoRexDust_0: -8417264061356060686
+      DemoRexDust_1: -1449632325910435437
+      DemoRexDust_10: 1198204344431025398
+      DemoRexDust_11: -2494631478376909465
+      DemoRexDust_12: -9012770242693843931
+      DemoRexDust_13: 2767666644783611364
+      DemoRexDust_14: 8180125311804814863
+      DemoRexDust_15: -782506175849149702
+      DemoRexDust_16: -9040362388693854382
+      DemoRexDust_17: 150561105077699884
+      DemoRexDust_18: -7578479526342237641
+      DemoRexDust_19: 4262056393169435461
+      DemoRexDust_2: 948940808565629513
+      DemoRexDust_20: 818675063780540902
+      DemoRexDust_21: 4661705047854422876
+      DemoRexDust_22: -4235938950316948214
+      DemoRexDust_23: 7563548399808103001
+      DemoRexDust_24: 6713918475963428628
+      DemoRexDust_25: 3560275155442173295
+      DemoRexDust_26: -5873361486234272141
+      DemoRexDust_27: -1677375700274911726
+      DemoRexDust_28: 4987840502830138529
+      DemoRexDust_3: -1235442713169030891
+      DemoRexDust_4: 9002317043833343858
+      DemoRexDust_5: -2477937800891959107
+      DemoRexDust_6: -5672842776866552739
+      DemoRexDust_7: 2772547638587227381
+      DemoRexDust_8: -2263905509777061967
+      DemoRexDust_9: 2161862679601159689
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

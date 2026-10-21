@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad883d891b8e514b99acf2ffad8d809, type: 3}
+  m_Name: DemoRelayQuest
+  m_EditorClassIdentifier: Assembly-CSharp::Baseline.Defs.QuestDef
+  defName: demo.relay.quest
+  labelKey: DemoRelay_Quest
+  editorNote: 
+  objectives:
+  - id: briefing
+    textKey: DemoRelay_BriefObjective
+    text: Receive the relay mission briefing.
+    secondary: 0
+    requiresObjectives: []
+    showOn: Quest.Begin
+    completeOn: Relay.Briefed
+    failOn: 
+    hideOn: 
+    count: 1
+    target: 
+  - id: delivery
+    textKey: DemoRelay_DistanceObjective
+    text: 'Reach the relay station: 600 metres.'
+    secondary: 0
+    requiresObjectives:
+    - briefing
+    showOn: briefing.Done
+    completeOn: Relay.Metre
+    failOn: Relay.Crashed
+    hideOn: 
+    count: 600
+    target: 
+  - id: clearance
+    textKey: DemoRelay_ClearObjective
+    text: Clear ten obstacles in one run.
+    secondary: 1
+    requiresObjectives:
+    - briefing
+    showOn: briefing.Done
+    completeOn: Relay.Cleared
+    failOn: Relay.Crashed
+    hideOn: 
+    count: 10
+    target: 
+  requires: []
+  guards: []
+  endings:
+  - signal: Quest.StepsDone
+    outcome: delivered
+    passes: 1
+    alsoRecord: []
+  - signal: Quest.StepFailed
+    outcome: crashed
+    passes: 0
+    alsoRecord: []

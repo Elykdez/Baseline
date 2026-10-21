@@ -1,0 +1,7 @@
+<linker>
+  <assembly fullname="Unity.TextMeshPro">
+    <type fullname="TMPro.TMP_Settings" preserve="nothing">
+      <field name="s_Instance" />
+    </type>
+  </assembly>
+</linker>

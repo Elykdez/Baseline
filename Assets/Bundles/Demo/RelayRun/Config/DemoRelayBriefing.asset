@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1c032f62fab3fd49a53f708b2241b71, type: 3}
+  m_Name: DemoRelayBriefing
+  m_EditorClassIdentifier: Assembly-CSharp::Baseline.Dialogue.DialogDef
+  defName: demo.relay.briefing
+  labelKey: DemoRelay_BriefTitle
+  editorNote: 
+  title: A signal worth carrying
+  titleKey: DemoRelay_BriefTitle
+  dualCharacters: 1
+  lines:
+  - speaker: {fileID: 11400000, guid: 61809e1d8c5f41448858dc44d38f860e, type: 2}
+    expression: default
+    text: R-07, the relay station is six hundred metres east. The road is quiet,
+      but the old equipment is still in your way.
+    textKey: DemoRelay_BriefOne
+    illustration: {fileID: 0}
+  - speaker: {fileID: 11400000, guid: 61809e1d8c5f41448858dc44d38f860e, type: 2}
+    expression: default
+    text: Press Space, Up, or JUMP to clear an obstacle. Keep your rhythm. Reach
+      the station and we can bring the signal home.
+    textKey: DemoRelay_BriefTwo
+    illustration: {fileID: -945887239, guid: 9aeb3e8ff8367c34fb7082aaafef2b4d, type: 3}
+  - speaker: {fileID: 11400000, guid: b312e5437b1ded641bc5506abd840f1a, type: 2}
+    expression: default
+    text: Understood. I'll keep my rhythm and bring the signal home.
+    textKey: DemoRelay_BriefReply
+    illustration: {fileID: 0}

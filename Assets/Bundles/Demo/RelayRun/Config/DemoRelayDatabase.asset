@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 573d16041b5bb674b9c97d1e34b5e06f, type: 3}
+  m_Name: DemoRelayDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::Baseline.Defs.DefDatabase
+  definitions:
+  - {fileID: 11400000, guid: 69651f149a0c1f341810d06a5a2ddd4b, type: 2}
+  - {fileID: 11400000, guid: d3b25b4ffe3a2b64a98b6cc048c1b552, type: 2}
+  - {fileID: 11400000, guid: 61809e1d8c5f41448858dc44d38f860e, type: 2}
+  - {fileID: 11400000, guid: 096e0392d0e216c4b9e308d30eae6974, type: 2}
+  - {fileID: 11400000, guid: ba1dd5ba156675b4f9dc267566cc9578, type: 2}
+  - {fileID: 11400000, guid: 5f78fd218295751449274383c7bd3f1d, type: 2}
+  - {fileID: 11400000, guid: b312e5437b1ded641bc5506abd840f1a, type: 2}

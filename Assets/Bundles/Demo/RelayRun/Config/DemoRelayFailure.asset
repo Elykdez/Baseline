@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1c032f62fab3fd49a53f708b2241b71, type: 3}
+  m_Name: DemoRelayFailure
+  m_EditorClassIdentifier: Assembly-CSharp::Baseline.Dialogue.DialogDef
+  defName: demo.relay.failure
+  labelKey: DemoRelay_FailTitle
+  editorNote: 
+  title: Signal interrupted
+  titleKey: DemoRelay_FailTitle
+  lines:
+  - speaker: {fileID: 11400000, guid: 61809e1d8c5f41448858dc44d38f860e, type: 2}
+    expression: default
+    text: That obstacle got us. Your chassis is safe, and the relay can wait for
+      another attempt.
+    textKey: DemoRelay_FailOne
+    illustration: {fileID: 0}
+  - speaker: {fileID: 11400000, guid: 61809e1d8c5f41448858dc44d38f860e, type: 2}
+    expression: default
+    text: Try jumping a little before the obstacle reaches your feet. Take a breath,
+      then run again.
+    textKey: DemoRelay_FailTwo
+    illustration: {fileID: -945887239, guid: 9aeb3e8ff8367c34fb7082aaafef2b4d, type: 3}

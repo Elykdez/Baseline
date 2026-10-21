@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fab0288ad7a2e894395f2fa503bce03a, type: 3}
+  m_Name: DemoRelayRunner
+  m_EditorClassIdentifier: Assembly-CSharp::Baseline.Demo.RelayRun.DemoRunnerDef
+  defName: demo.relay.runner
+  labelKey: DemoRelay_Quest
+  editorNote: 
+  tuning:
+    speed: 520
+    maxSpeed: 720
+    acceleration: 4
+    jumpVelocity: 860
+    gravity: 2400
+    takeoffGravityScale: 1
+    apexGravityScale: 0.9
+    landingGravityScale: 1.1
+    goalDistance: 600
+    pixelsPerMetre: 55
+    minGap: 1050
+    maxGap: 1450
+    obstacleWidth: 88
+    obstacleHeight: 100
+  quest: {fileID: 11400000, guid: d3b25b4ffe3a2b64a98b6cc048c1b552, type: 2}

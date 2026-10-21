@@ -1,0 +1,85 @@
+Relay Run demo artwork
+
+Created with the built-in OpenAI image generation tool for this project.
+Character style reference: Assets/Bundles/Core/Texture/Characters/RobotGuide.png.
+The supplied running reference informed the alternating stance/recovery poses.
+No external art pack was imported.
+
+Final assets and prompt specifications:
+
+DemoRelayLandscape.png
+Wide illustrated abandoned orbital relay station at dawn; enormous distant
+relay ring, layered mesas, sparse towers and cyan signal beams. Quiet darker
+left half for menu typography. Smooth hand-inked cel shading, cream, sage,
+charcoal, cyan and amber. No characters, foreground objects or text.
+
+DemoRelayForeground.png
+Transparent foreground strip of broken cream/sage machinery, charcoal rocks,
+sparse grasses and a cyan beacon. Side-on low metal platform, empty upper
+canvas. Smooth cel shading, no sky, text, characters or ground shadows.
+
+DemoRelayObstacles.png
+Transparent two-cell atlas: broken cargo battery crate and wrecked power-pylon
+base. Cream ceramic armor, sage panels, charcoal base, amber cables and cyan
+indicators. Separated complete silhouettes, no ground or captions.
+
+DemoRexRun.png
+Static robot rex illustration in two cells. Right-facing tyrannosaur with
+cream armor, sage panels, charcoal mechanics, tiny forearms, long tail,
+cyan eye and amber accents. Used for the icon and dialogue art.
+It is NOT used as the gameplay animation.
+
+DemoRexLookout.png
+Transparent full-body robot rex in a calm standing lookout pose. Three-quarter
+rear view with both feet planted, back and rear hips visible, head raised
+toward the distant relay at upper right, segmented tail sweeping down-left.
+Cream ceramic armor, sage panels, charcoal joints, cyan optics and amber cables.
+Smooth inked cel shading, warm dawn rim light from upper-left. No landscape,
+text, floor, shadow blob or duplicate figure. Uses the original rex design and
+the user's marked menu screenshot as references. Separate lower-right poster layer.
+
+DemoRexBody.png
+Animation puppet body cutout matching the approved rex. Head, torso, long
+leftward tail and tiny arms only; remove both hind legs below the hip sockets.
+Exposed round hip joint for articulated legs. True alpha, no ground or text.
+
+DemoRexLegParts.png
+Three separate neutral rig pieces: upper thigh with hip and knee sockets,
+lower shin with knee and ankle sockets, and right-facing three-clawed foot.
+Cream/sage armor with dark circular joints and amber details. True alpha.
+
+Import and animation:
+Original generated PNGs are retained without repainting or resampling.
+Unity imports alpha-cropped parts as Sprite subassets with bilinear filtering
+and no mipmaps. The authored prefab has a rigid cutout hierarchy and native
+Animator clips. Independent near/far legs use a half-cycle phase offset and
+articulated thigh/knee/ankle joints. Run and tucked jump are Animator states;
+the run speed follows gameplay speed and freezes during pause/dialogue.
+The layered poster uses the existing UIParallax component.
+
+DemoRexLookout.png:
+User-selected attachment of the built-in OpenAI ImageGen lookout bust.
+Left-facing side-rear view, cream/sage armor, dark joints, amber cables and
+a teal eye, with warm sunset light from the left. The supplied transparent
+PNG is retained byte-for-byte and enlarged in the lower-right foreground.
+
+Audio:
+DemoFootstep.wav is an original 0.12-second mono PCM foot-contact sound at 22050 Hz.
+It combines a decaying 145 Hz downward-pitched sine and a short seeded noise transient,
+with a 2 ms attack and 15 ms end taper. The cue uses the effects bus at 0.25 gain.
+Original PCM WAV masters were synthesized for this project, with authored
+sound, music and pooled particle definitions. No external recordings were used.
+The retained ambient track is shared content at
+Assets/Bundles/Core/Sound/Music/relay_ambient.wav, owned by the Core group
+through the Core Addressables folder entry.
+
+DemoRexDust.png:
+Generated with the built-in OpenAI imagegen tool. Prompt: single reusable
+transparent game VFX sprite for a side-view illustrated robot dinosaur runner;
+one low, wide sand-colored dust puff with four soft billowing lobes, warm pale
+beige highlights and muted taupe lower shading. Smooth hand-painted shading,
+readable at 60 pixels wide, fluffy scalloped silhouette, subtle alpha edge.
+No ground, cast shadow, characters, sparks, text, border or checkerboard.
+The generated PNG is unchanged. Unity crops the alpha bounds in sprite metadata,
+imports at maximum 256 pixels with no mipmaps, and uses the sprite in the
+DemoRexFootFx canvas prefab for running contacts, takeoff and landing bursts.

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b209c2d4764da348be51093453e9e5c, type: 3}
+  m_Name: DemoRelayGuide
+  m_EditorClassIdentifier: Assembly-CSharp::Baseline.Dialogue.CharacterDef
+  defName: demo.relay.guide
+  labelKey: DemoRelay_GuideName
+  editorNote: 
+  displayName: Relay Control
+  role: Field support
+  nameKey: DemoRelay_GuideName
+  roleKey: DemoRelay_GuideRole
+  illustration: {fileID: 1249999231, guid: 0738020cf358ed346b87f6c58b59ae3f, type: 3}
+  portrait: {fileID: -205073561, guid: 0738020cf358ed346b87f6c58b59ae3f, type: 3}
+  defaultVoice: {fileID: 0}
+  accent: {r: 0.12156863, g: 0.5803922, b: 0.54901963, a: 1}
+  expressions: []

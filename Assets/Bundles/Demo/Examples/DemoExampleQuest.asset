@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad883d891b8e514b99acf2ffad8d809, type: 3}
+  m_Name: DemoExampleQuest
+  m_EditorClassIdentifier:
+  defName: example.quest
+  labelKey:
+  editorNote: A neutral example. Begin the run, then raise Example.Action to complete it.
+  objectives:
+  - id: action
+    textKey:
+    text: Perform the example action.
+    secondary: 0
+    showOn: Quest.Begin
+    completeOn: Example.Action
+    failOn:
+    hideOn:
+    count: 1
+    target:
+  requires: []
+  endings:
+  - signal: Quest.StepsDone
+    outcome: done
+    passes: 1
+    alsoRecord: []

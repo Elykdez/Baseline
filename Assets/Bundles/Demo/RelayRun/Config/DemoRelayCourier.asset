@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b209c2d4764da348be51093453e9e5c, type: 3}
+  m_Name: DemoRelayCourier
+  m_EditorClassIdentifier: Assembly-CSharp::Baseline.Dialogue.CharacterDef
+  defName: demo.relay.courier
+  labelKey: 
+  editorNote: 
+  displayName: R-07
+  role: Relay courier
+  nameKey: DemoRelay_CourierName
+  roleKey: DemoRelay_CourierRole
+  illustration: {fileID: 21300000, guid: a4174ddb76afab444bd93d5957f1264b, type: 3}
+  portrait: {fileID: 21300000, guid: a4174ddb76afab444bd93d5957f1264b, type: 3}
+  defaultVoice: {fileID: 0}
+  accent: {r: 0.12156863, g: 0.5803922, b: 0.54901963, a: 1}
+  expressions: []

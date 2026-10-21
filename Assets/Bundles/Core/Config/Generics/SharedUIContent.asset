@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3990fc78db8b81b4f95b2f2452839169, type: 3}
+  m_Name: SharedUIContent
+  m_EditorClassIdentifier: Assembly-CSharp::Baseline.SharedUIContent
+  textSettings: {fileID: 11400000, guid: 3f5b5dff67a942289a9defa416b206f3, type: 2}
+  contextPrefab: {fileID: 8177196968236045764, guid: 96d3cb86e8d2fd0419b104976282eaee, type: 3}
+  textPrefab: {fileID: 4677002493144268544, guid: b291a2aafbb17e94cace4dd8d8216b13, type: 3}
+  dialoguePrefab: {fileID: 1971403234502655452, guid: 2872673565870f6408f85030c5ceff66, type: 3}
+  characterDialogPrefab: {fileID: 2648679888807476349, guid: 8329a6d017f171f4b96d77e07ddcb7ae, type: 3}
+  characterAlertsPrefab: {fileID: 232588285385152831, guid: a3a938856aed6a34dbf6130338741dc5, type: 3}

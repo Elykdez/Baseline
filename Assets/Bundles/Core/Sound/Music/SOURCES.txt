@@ -1,0 +1,6 @@
+relay_ambient.wav
+Original synthesized ambient loop created for this project with PCM synthesis.
+Promoted to retained shared music; used by both the generic Index and Relay Run.
+No external recording or music pack was used.
+Owned by the Core group through the Core Addressables folder entry.
+Streaming Vorbis import profile.

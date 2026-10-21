@@ -1,0 +1,401 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: StringTable_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: be8326ab923736c4e9be540eb9f7647e, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 516334354432
+    m_Localized: Baseline
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730655527788544
+    m_Localized: Missing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759858474246144
+    m_Localized: System Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759894511706112
+    m_Localized: Audio Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 760946514452480
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 761112822800384
+    m_Localized: Difficulty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 761425558495232
+    m_Localized: Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 761461893750784
+    m_Localized: Sound Effects
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1143589298831360
+    m_Localized: Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1143624073805824
+    m_Localized: Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337120679464787968
+    m_Localized: Window Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337122057197182976
+    m_Localized: Windowed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337122141171343360
+    m_Localized: Borderless
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337122150986014720
+    m_Localized: Fullscreen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368163088516505600
+    m_Localized: Next
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368163088554254336
+    m_Localized: Close
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368163088554254337
+    m_Localized: Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368163088554254338
+    m_Localized: Show me the basics
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368163088554254339
+    m_Localized: Skip explanation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368163088554254340
+    m_Localized: Cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368163088554254341
+    m_Localized: Confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368163088554254342
+    m_Localized: Okay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368163088554254343
+    m_Localized: Guide
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368163088554254344
+    m_Localized: Assistant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368163088554254345
+    m_Localized: Welcome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368163088554254346
+    m_Localized: This conversation uses an authored prefab and shared character definition.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368163088554254347
+    m_Localized: Your scene owns when to open the conversation and how to handle
+      its result.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368209180364890112
+    m_Localized: System
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368209180394250240
+    m_Localized: Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368209180394250241
+    m_Localized: Gameplay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368209180394250242
+    m_Localized: Gameplay Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368209180394250243
+    m_Localized: Master Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368209180394250244
+    m_Localized: Interface Sounds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368209180394250245
+    m_Localized: Screen Shake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368209180394250246
+    m_Localized: Board Effects
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368209180394250247
+    m_Localized: "Loading\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368209180394250248
+    m_Localized: No help document is available.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368215673705324544
+    m_Localized: Easy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368215673726296064
+    m_Localized: Normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368215673726296065
+    m_Localized: Hard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4589422968832
+    m_Localized: A foundation for your next project.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368474876646776832
+    m_Localized: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368474876671942656
+    m_Localized: Help
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368474876671942657
+    m_Localized: No games are registered yet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368992933404205056
+    m_Localized: FIELD UNIT R-07  /  FIRST LIGHT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368992933454536704
+    m_Localized: 'RELAY
+
+      RUN'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368992933454536705
+    m_Localized: RELAY RUN / R-07
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368992933454536706
+    m_Localized: 'One small robot. One last signal.
+
+      Carry the relay across
+      the quiet frontier.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368992933454536707
+    m_Localized: MISSION 01  /  REACH THE RELAY  /  600 m
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368992933454536708
+    m_Localized: BEGIN RUN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368992933454536709
+    m_Localized: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368992933454536710
+    m_Localized: Field guide
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368992933454536711
+    m_Localized: SPACE / UP TO JUMP     P TO PAUSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368992933454536712
+    m_Localized: A playable Baseline demo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368992933454536713
+    m_Localized: Restore the relay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368992933454536714
+    m_Localized: 'Reach the relay station: 600 metres.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368992933454536715
+    m_Localized: Clear ten obstacles in one run.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368992933454536716
+    m_Localized: Relay Control
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368992933454536717
+    m_Localized: Field support
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368992933454536718
+    m_Localized: A signal worth carrying
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368992933454536719
+    m_Localized: R-07, the relay station is six hundred metres east. The road is
+      quiet, but the old equipment is still in your way.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368992933454536720
+    m_Localized: Press Space, Up, or JUMP to clear an obstacle. Keep your rhythm.
+      Reach the station and we can bring the signal home.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368992933454536721
+    m_Localized: Signal interrupted
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368992933454536722
+    m_Localized: That obstacle got us. Your chassis is safe, and the relay can wait
+      for another attempt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368992933454536723
+    m_Localized: Try jumping a little before the obstacle reaches your feet. Take
+      a breath, then run again.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368992933454536724
+    m_Localized: Relay restored
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368992933454536725
+    m_Localized: We have your signal, R-07. Six hundred metres, one determined little
+      robot, and a connection restored.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368992933454536726
+    m_Localized: Your delivery is recorded. You can run the route again, or head
+      back to the station menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368992933454536727
+    m_Localized: METRES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368992933454536728
+    m_Localized: BEST DISTANCE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368992933454536729
+    m_Localized: CLEARED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368992933454536730
+    m_Localized: Pause
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368992933454536731
+    m_Localized: Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368992933458731008
+    m_Localized: JUMP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368992933458731009
+    m_Localized: 'SPACE / UP / W  Jump
+
+      P / ESC  Pause'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368992933458731010
+    m_Localized: The relay is waiting.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368992933458731011
+    m_Localized: 'Run 600 metres. Jump the abandoned equipment.
+
+      Your mission
+      begins with a briefing.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368992933458731012
+    m_Localized: Route paused
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368992933458731013
+    m_Localized: RESUME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368992933458731014
+    m_Localized: Return to menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368992933458731015
+    m_Localized: RUN AGAIN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368992933458731016
+    m_Localized: Leave this run?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368992933458731017
+    m_Localized: This attempt will end without recording a quest outcome. Your previous
+      records are safe.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368992933458731018
+    m_Localized: Leave run
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368992933458731019
+    m_Localized: Route unavailable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368992933458731020
+    m_Localized: Complete the prerequisite mission before starting this route.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368994345383092224
+    m_Localized: Receive the relay mission briefing.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 369207464978014208
+    m_Localized: R-07
+    m_Metadata:
+      m_Items: []
+  - m_Id: 369207465032540160
+    m_Localized: Relay courier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 369207465032540161
+    m_Localized: Understood. I'll keep my rhythm and bring the signal home.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
