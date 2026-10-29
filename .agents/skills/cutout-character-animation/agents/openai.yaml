@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cutout Character Animation"
+  short_description: "Rig body parts, animate characters, and export frames"
+  default_prompt: "Use $cutout-character-animation to build this character from separate body parts, animate the requested actions, and export transparent frames."

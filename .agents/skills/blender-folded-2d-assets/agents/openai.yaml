@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blender Folded 2D Assets"
+  short_description: "Texture, fold, and render sheets into 2D assets"
+  default_prompt: "Use $blender-folded-2d-assets to turn this flat artwork into a folded paper asset with a transparent background."

@@ -87,6 +87,15 @@ and wiring it into a scene are documented in [Dependencies](Dependencies.md).
 6. Report what changed, the paths, the exact verification performed, and any remaining manual checks.
    Update these guides if a path, API, content contract or installed capability changed.
 
+## Asset production skills
+
+Read only the matching skill when the task requires it; keep the detailed workflow in its own file.
+
+| Task | Skill |
+| --- | --- |
+| Render folded paper, bent cards, or curled sheets from flat artwork | [Blender folded 2D assets](../.agents/skills/blender-folded-2d-assets/SKILL.md) |
+| Animate a 2D character from separate body parts and capture frames | [Cutout character animation](../.agents/skills/cutout-character-animation/SKILL.md) |
+
 ## Documentation maintenance
 
 Describe Baseline as a self-contained foundation. Document current capabilities, contracts and
